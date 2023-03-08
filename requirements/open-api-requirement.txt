@@ -1,0 +1,12 @@
+requirement:
+
+Looking for an expert API developer for an API composition web application. The composition logic is already impelemented with Python and flask. The goal here is to allow users to consume APIs automatically based on the OpenAPI spec. The input is the OpenAPI spec document (JSON) and the output should be the HTML and js files for interacting with that API. For example for an API with "city name" as a parameter, the UI should contain a text box for that particular operation. In the backend the client code for interacting with that API should be generated and connected to the frontend. For client generation the already existing libraries such as OpenAPI Generator can be used.
+
+references:
+
+1.
+The API s should actually work meaning that user should be able to send requests to end points and receive a response so we need a backend or client.
+https://openapi-generator.tech/
+
+2.
+I dont have any demo. It is more or less like the example you sent to me but the user should not see any information about the API like the paths operations or the HTTP protocols. it is exactly like the PDF I sent you. for each OpenAPI doc (in json) a UI container shoudl be generated with input boxes for parameter and an execute button so user can click on it and see the response in UI. By the way it should be written in python and Flask.
